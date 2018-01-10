@@ -1,0 +1,45 @@
+.k-spinner {
+	position:fixed;
+	width:45px;
+	height:45px;
+    left:0;top:0;
+    right:0;bottom:0;
+    margin:auto;
+    z-index:99999;
+}
+.k-bubble-1,.k-bubble-2 {
+	position:absolute;
+	top:0;
+	width:25px;
+	height:25px;
+	border-radius:100%;
+	background-color:#4b9cdb
+}
+.k-bubble-2 {
+	top:auto;
+	bottom:0
+}
+
+.k-spinner {
+	animation:k-loadingI 1s linear infinite
+}
+.k-bubble-1,.k-bubble-2 {
+	animation:k-loadingIb 1s ease-in-out infinite;
+	background-color:#FFC107
+}
+.k-bubble-2 {
+	animation-delay:-1.0s
+}
+
+@keyframes k-loadingI {
+	100% {
+        transform:rotate(360deg)
+    }
+}@keyframes k-loadingIb {
+	0%,100% {
+        transform:scale(0)
+    }
+    50% {
+        transform:scale(1)
+    }
+}

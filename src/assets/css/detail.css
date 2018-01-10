@@ -1,0 +1,27 @@
+
+#top{z-index:999;background:rgba(0,0,0,0.9);position:fixed;top:0;width:100%;display: flex;justify-content: space-between;height:32px;color:#fff;}
+#top .go_back{background: url(/src/assets/images/arrow_left.png) no-repeat left center;background-size: 10px 12px; padding-left: 20px;display: inline-block;font:14px/32px "";color:#fff;margin-left:10px;}
+#top h2{font:16px/32px "";}
+#top .top_set{width:20px;background: url(/src/assets/images/icon_set.png) no-repeat center center;background-size: 16px 16px; margin-right:10px;}
+
+
+.product_detail{background:#fff;box-shadow: 0 2px 2px #ccc;}
+.product_detail p{ font-size:14px;line-height:28px;text-indent: 2em;}
+.product_detail p img{display: inline-block;width:20px;height:20px;border-radius:50%;vertical-align: middle;}
+.product_detail .price{font-size:16px; color: #676767;line-height: 40px;text-indent: 10px;}
+.product_detail .price span{ font-size:16px; color: #f11515; padding-left:10px;}
+#num{background:#fff;box-shadow: 0 2px 2px #ccc;line-height:40px;text-indent: 10px;margin-top:10px;}
+#num .btn_num{margin-left:10px;}
+#num .btn_num a img{display:inline-block;width:20px;height:20px;margin-top:10px}
+#num .btn_num span.num{display:inline-block;width:30px;text-align:left;font-size:14px;}
+
+.com {width:100%;font:16px/40px "";background:#fff;box-shadow: 0 2px 2px #ccc;margin-top:10px;text-indent: 10px;}
+.com a{float:right;}
+/* 购买按钮 */
+.buyBox{position:fixed;bottom:0;z-index: 999;width:100%;background:#fff;padding:10px 0}
+.buyBox .buyBtn{ padding:0 5%;}
+.buyBox .buyBtn a{ display: inline-block; width:28%; margin:2% ; border-radius: 5px; text-align:center; color: #fff; font-size:14px; padding:5px 0;}
+.buyBox .buyBtn .carts{ background-color: #1ecfbb; }
+.buyBox .buyBtn .buy{ background-color: #fa4041; }
+.buyBox #goCarts{ display: block; width: 10%;float: right; margin: 0px 10px 0 0;}
+.buyBox #goCarts img{ width: 100%;}

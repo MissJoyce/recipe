@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "id":"01",
+            "title":"主食",
+            "indexImg":"src/assets/images/1.png"
+        },
+        {
+            "id":"02",
+            "title":"各地风味",
+            "indexImg":"src/assets/images/2.png"
+        },
+        {
+            "id":"03",
+            "title":"甜点饮品",
+            "indexImg":"src/assets/images/3.png"
+        },
+        {
+            "id":"04",
+            "title":"异国风情",
+            "indexImg":"src/assets/images/4.png"
+        },
+        {
+            "id":"05",
+            "title":"主食2",
+            "indexImg":"src/assets/images/1.png"
+        },
+        {
+            "id":"06",
+            "title":"各地风味",
+            "indexImg":"src/assets/images/2.png"
+        }
+    ]
+}

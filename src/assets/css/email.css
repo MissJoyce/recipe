@@ -1,0 +1,9 @@
+.email .mui-bar{position:fixed;top:0;z-index:999;width:100%;box-shadow: 0 2px 2px #d7d7d7;}
+.email .mui-title{text-indent:26%;}
+.email .write{border-bottom: 1px solid #d7d7d7;}
+.email ul.emali{background:#fff;}
+.email ul.emali li{padding:11px 15px;border-bottom:1px solid #f2f2f2;}
+.email ul.emali li a{display:block;overflow: hidden;clear: both;}
+.email ul.emali li a img{display:inline-block;width:42px;height:42px;border-radius:50%;margin-right:10px;}
+.email ul.emali li a .mui-media-body{overflow: hidden;display: flex;justify-content: space-between;margin-top:10px;}
+.email ul.emali li a .mui-media-body i{display:inline-block;color:#666;}

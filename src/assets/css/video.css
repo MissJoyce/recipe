@@ -1,0 +1,18 @@
+.videoBox .mui-bar{position:fixed;top:0;z-index:999;width:100%;box-shadow: 0 2px 2px #d7d7d7;}
+.videoBox .mui-title{text-indent: 26%;}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{ color: #FF1C01; border: 0;}
+.videoBox .mui-scroll{background:#fff;height:40px;width:auto;font:16px/40px "";overflow: hidden;white-space:nowrap;position:relative;}
+.videoBox .mui-scroll a{display: inline-block;padding:0 20px;}
+.title{ background: #f1f1f1; line-height: 40px; font-size: 16px; padding-left:15px ; color: #333;}
+.video{ overflow: hidden; padding: 10px 0;background:#fff;}
+.video li{ float: left; width: 25%; text-align: center;font-size: 14px;}
+.video li p{color:#8f8f94;font-size: 14px;}
+.video li img{ width: 50px; height: 50px; border-radius: 50%;}
+.video-list{ background: #f1f1f1; padding: 10px 0;font-size: 14px;}
+.video-list li{ padding:0 10px; position: relative; margin-bottom: 10px;}
+.video-list li .v1{ width: 100%; border-radius: 10px 10px 0 0;background:#000;}
+.video-list li p{color:#8f8f94;font-size: 14px;}
+.video-list .text{ background: #fff; border-radius: 0 0 10px 10px; padding-left: 10px; padding-bottom: 10px;}
+.video-list .text h2{ font-size: 18px;  padding-top: 10px; line-height: 25px;}
+.video-list .pic{ position: absolute; right: 30px; bottom: 40px;text-align: center;}
+.video-list .pic img{ width: 50px; height: 50px; border-radius: 50%;}

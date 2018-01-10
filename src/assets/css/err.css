@@ -1,0 +1,17 @@
+#err{
+    height:100%;
+    text-align:center;
+    position:relative;
+}
+#errbox{
+    width:100%;
+    position:absolute;
+    /* top:35%; */
+}
+
+h3{
+    font:24px/48px "";
+}
+p{
+    font:18px/24px "";
+}
